@@ -2,11 +2,7 @@
 // CONFIGURATION
 // =====================================================================
 
-// En local (pendant que tu testes avec "node src/server.js") :
-const GEOJSON_URL = "http://localhost:5500/commerces-ruraux-geo.json";
-// Une fois déployé chez ton hébergeur, remplace la ligne ci-dessus par
-// l'URL réelle de ton app Node, par exemple :
-// const GEOJSON_URL = "https://tonsite.fr/api/commerces-ruraux-geo.json";
+const GEOJSON_URL = "data/commerces-ruraux-geo.json";
 
 const COLORS = {
     fixe: "#616DAF",
